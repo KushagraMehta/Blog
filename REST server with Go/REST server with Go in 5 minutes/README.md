@@ -40,9 +40,9 @@ func main() {
 
 ```
 
-If you run this code on your machine. This will start simple API ser at port `8090`. In your browser navigate to `http://localhost:8090/`, you'll going to see "Welcome to the HomePage!".
+If you run this code on your machine. This will start simple API server at port `8090`. In your browser navigate to `http://localhost:8090/`, you'll going to see "Welcome to the HomePage!".
 
-![Output](./Version_1-Output.png)
+![Output](https://github.com/KushagraMehta/Blog/blob/master/REST%20server%20with%20Go/REST%20server%20with%20Go%20in%205%20minutes/Version_1-Output.png)
 
 ## THE API IS CREATED 🎇
 
@@ -248,7 +248,7 @@ func deleteUser(w http.ResponseWriter, r *http.Request) {
 }
 ```
 
-> Note - To keep this simple, we are updating a global variable. However, we aren’t doing any checks to ensure that our code is free of race conditions. In order to make this code thread-safe, I recommend checking out my other tutorial on [Go Mutexes](https://gobyexample.com/mutexes)
+> Note - To keep this simple, we are updating a global variable. However, we aren’t doing any checks to ensure that our code is free of race conditions. In order to make this code thread-safe, I recommend checking out [Go Mutexes](https://gobyexample.com/mutexes)
 
 if you're reading this, that means now you can build any CRUD application.
 
@@ -258,7 +258,7 @@ if you're reading this, that means now you can build any CRUD application.
 
 This example represents a very simple RESTful API written using Go. In a real project, we’d typically tie this up with a database so that we were returning real values. For the next step, I would suggest you should read [Gorilla/Mux](https://github.com/gorilla/mux) package. As it will remove a lot of boilerplate code and written only with the standard line.
 
-> Source Code - The full source code for this tutorial can be found here: [KushagraMehta/Blog/]()
+> Source Code - The full source code for this tutorial can be found here: [KushagraMehta/Blog/REST server with Go](https://github.com/KushagraMehta/Blog/tree/master/REST%20server%20with%20Go/REST%20server%20with%20Go%20in%205%20minutes)
 
 In the next post, we'll add Postgresql plus Dockerize the whole application, furthermore host it on Heroku/AWS.
 
